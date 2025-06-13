@@ -1,0 +1,149 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Ridber Rodriguez</title>
+  <subtitle>Ethical hacking, hacking, Hack The Box, TryHackme, htb, thm, write ups.</subtitle>
+  <updated>2025-06-10T14:53:52-05:00</updated>
+  <author>
+    <name>Ridber Miguel Rodriguez Sanchez</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Ridber Miguel Rodriguez Sanchez </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>LookUp</title>
+    <link href="http://localhost:4000/posts/lookup/" rel="alternate" type="text/html" title="LookUp" />
+    <published>2025-06-09T02:25:00-05:00</published>
+  
+    <updated>2025-06-09T02:25:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/lookup/</id>
+    <content type="text/html" src="http://localhost:4000/posts/lookup/" />
+    <author>
+      <name>Ridber Miguel Rodriguez Sanchez</name>
+    </author>
+
+  
+    
+  
+
+  <summary></summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>DOG</title>
+    <link href="http://localhost:4000/posts/dog/" rel="alternate" type="text/html" title="DOG" />
+    <published>2025-06-02T09:17:00-05:00</published>
+  
+    <updated>2025-06-02T09:17:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/dog/</id>
+    <content type="text/html" src="http://localhost:4000/posts/dog/" />
+    <author>
+      <name>Rootber</name>
+    </author>
+
+  
+    
+    <category term="Machines" />
+    
+    <category term="labs" />
+    
+  
+
+  <summary>La máquina Dog de Hack The Box, parte de la Temporada 7, es un desafío de nivel fácil que combina enumeración, explotación de vulnerabilidades en un CMS y escalamiento de privilegios en un entorno Linux. En este write-up, les explicare como es que obtube las flags del usuario y root, destacando el uso de git-dumper para extraer un repositorio Git expuesto y acceder a las credenciales críticas.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Customize the Favicon</title>
+    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
+    <published>2019-08-10T11:34:00-05:00</published>
+  
+    <updated>2024-03-01T12:28:45-05:00</updated>
+  
+    <id>http://localhost:4000/posts/customize-the-favicon/</id>
+    <content type="text/html" src="http://localhost:4000/posts/customize-the-favicon/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Getting Started</title>
+    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
+    <published>2019-08-09T07:55:00-05:00</published>
+  
+    <updated>2025-02-06T00:27:54-05:00</updated>
+  
+    <id>http://localhost:4000/posts/getting-started/</id>
+    <content type="text/html" src="http://localhost:4000/posts/getting-started/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Writing a New Post</title>
+    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
+    <published>2019-08-08T01:10:00-05:00</published>
+  
+    <updated>2025-03-04T16:06:37-05:00</updated>
+  
+    <id>http://localhost:4000/posts/write-a-new-post/</id>
+    <content type="text/html" src="http://localhost:4000/posts/write-a-new-post/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and Path  Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
+
+  </entry>
+
+</feed>
+
+

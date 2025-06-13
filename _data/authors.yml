@@ -1,0 +1,17 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+ Rootber:
+   name: Ridber Miguel Rodríguez Sánchez
+   twitter: ridberm
+   url: https://www.linkedin.com/in/ridber-miguel-rodr%C3%ADguez-s%C3%A1nchez-9289b0238/
+# -------------------------------------
+
+cotes:
+  name: Cotes Chung
+  twitter: cotes2020
+  url: https://github.com/cotes2020/
+
+sille_bille:
+  name: Dinesh Prasanth Moluguwan Krishnamoorthy
+  twitter: dinesh_MKD
+  url: https://github.com/SilleBille/
