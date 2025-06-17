@@ -1,0 +1,30 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ main ]  # Cambia si usas otra rama
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1  # Usa la versión de Ruby que tienes localmente
+        bundler-cache: true
+
+    - name: Build with Jekyll
+      run: |
+        bundle install
+        bundle exec jekyll build --baseurl "${{ github.base_ref }}/${{ github.event.repository.name }}"
+        
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        # publish_branch: gh-pages  # Descomenta si usas rama gh-pages
