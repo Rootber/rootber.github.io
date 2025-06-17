@@ -22,7 +22,7 @@ description: >- # used by seo meta and the atom feed
  Ethical hacking, hacking, Hack The Box, TryHackme, htb, thm, write ups.
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://rootber.github.io/"
 
 github:
   username: Rootber # change to your GitHub username
@@ -242,3 +242,5 @@ jeckyll_compose:
 
 
 
+plugins:
+  - jekyll-include-cache

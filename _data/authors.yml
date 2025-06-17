@@ -1,9 +1,9 @@
 ## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
 # -------------------------------------
- Rootber:
-   name: Ridber Miguel Rodríguez Sánchez
-   twitter: ridberm
-   url: https://www.linkedin.com/in/ridber-miguel-rodr%C3%ADguez-s%C3%A1nchez-9289b0238/
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
 # -------------------------------------
 
 cotes:
